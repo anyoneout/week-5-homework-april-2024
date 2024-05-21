@@ -6,6 +6,33 @@ let player2 = params.get("p2");
 if(player1 === "rock" && player2 === "paper") {
   document.write("player 2 wins!")
 }
+if(player1 === "rock" && player2 === "scissors") {
+  document.write("player 1 wins!")
+}
+if(player1 === "paper" && player2 === "scissors") {
+  document.write("player 2 wins!")
+}
+if(player1 === "paper" && player2 === "rock") {
+  document.write("player 1 wins!")
+}
+if(player1 === "scissors" && player2 === "rock") {
+  document.write("player 2 wins!")
+}
+if(player1 === "scissors" && player2 === "paper") {
+  document.write("player 1 wins!")
+}
+if(player1 === player2) {
+  document.write("It's a Draw!")
+}
+if(player1 === "" && player2 === "") {
+  document.write("both players need to choose")
+}
+if(player1 === "") {
+  document.write("player 1 needs to choose")
+}
+if(player2 === "") {
+  document.write("player 2 needs to choose")
+}
 // TODO: write all the conditions to indicate who will win the game.
 
 
